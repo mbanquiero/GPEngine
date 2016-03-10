@@ -1,0 +1,15 @@
+REGEDIT
+; El programa SETUP puede utilizar este archivo .REG.
+;   Si no hay disponible ningún programa SETUP, las siguientes entradas se
+;   registrarán automáticamente en InitInstance con una llamada a
+;   CWinApp::RegisterShellFileTypes y COleObjectFactory::UpdateRegistryAll.
+
+HKEY_CLASSES_ROOT\.gpe = GPEngine.Document
+HKEY_CLASSES_ROOT\GPEngine.Document\shell\open\command = GPEngine.EXE %1
+HKEY_CLASSES_ROOT\GPEngine.Document\shell\open\ddeexec = [open("%1")]
+HKEY_CLASSES_ROOT\GPEngine.Document\shell\open\ddeexec\application = GPEngine
+    ; nota: la aplicación es opcional
+    ;  (adquiere el valor predeterminado del nombre de aplicación de "command")
+
+HKEY_CLASSES_ROOT\GPEngine.Document = GPEngine.Document
+

@@ -1,0 +1,25 @@
+﻿Compilación iniciada a las 16/02/2015 14:38:42.
+     1>Proyecto "C:\uade\GPEngine\GPEngine.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\GPEngine.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt contact.cpp
+         contact.cpp
+     1>c:\uade\gpengine\body.h(15): warning C4091: 'extern ' : se ha omitido a la izquierda de 'Body' cuando no hay ninguna variable declarada
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\uade\GPEngine\Debug\GPEngine.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\uade\GPEngine\Debug\GPEngine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\uade\GPEngine\Debug\GPEngine.lib" /MACHINE:X86 Debug\GPEngine.res
+         Debug\body.obj
+         Debug\collision.obj
+         Debug\constraint.obj
+         Debug\contact.obj
+         Debug\GPEngine.obj
+         Debug\GPEngineDoc.obj
+         Debug\GPEngineView.obj
+         Debug\gpe_math.obj
+         Debug\MainFrm.obj
+         Debug\stdafx.obj
+         Debug\world.obj
+         GPEngine.vcxproj -> C:\uade\GPEngine\Debug\GPEngine.exe
+     1>Compilación del proyecto terminada "C:\uade\GPEngine\GPEngine.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.57
